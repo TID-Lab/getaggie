@@ -9,7 +9,7 @@ button, .btn {
     background: $hover;
   }
 
-  &:focus {
+  &:focus, &:active {
     outline: 5px auto $focus;
   }
 }

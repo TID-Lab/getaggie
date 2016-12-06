@@ -32,7 +32,7 @@ button, .btn {
   button:hover, button:focus, button:active, .btn:hover, .btn:focus, .btn:active {
     color: white;
     background: #2ea046; }
-  button:focus, .btn:focus {
+  button:focus, button:active, .btn:focus, .btn:active {
     outline: 5px auto #3ac054; }
 
 nav {
