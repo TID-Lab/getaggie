@@ -54,6 +54,14 @@ header {
     font-size: 1.2em;
     font-style: italic; }
 
+footer {
+  margin: 2em 0;
+  text-align: center; }
+  footer img {
+    height: 4em; }
+  footer .logos {
+    margin: 8em 0; }
+
 section {
   margin: 1em 0; }
   section h1 {
