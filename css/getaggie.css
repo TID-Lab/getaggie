@@ -1,7 +1,12 @@
+body {
+  padding: 2em 4em; }
+
 header {
   color: #25933c;
   text-align: center; }
   header h1, header h2, header h3, header h4 {
     color: inherit; }
+  header img {
+    max-width: 30%; }
 
 /*# sourceMappingURL=getaggie.css.map */

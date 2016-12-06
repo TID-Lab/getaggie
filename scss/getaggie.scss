@@ -1,10 +1,18 @@
 @import "colors";
 
+body {
+  padding: 2em 4em;
+}
+
 header {
   color: $green;
   text-align: center;
 
   h1, h2, h3, h4 {
     color: inherit;
+  }
+
+  img {
+    max-width: 30%;
   }
 }
