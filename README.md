@@ -10,4 +10,6 @@ Changes should be made to the Sass files inside the scss folder. While adjusting
 This command will save the Sass files into CSS format.
 
 ### Test Site
-The current site can be found at https://tid-lab.github.io/getaggie/.
+The current live site can be found at https://tid-lab.github.io/getaggie/.
+
+When developing on a local environment, open the index.html file in your preferred browser.
