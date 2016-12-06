@@ -12,11 +12,11 @@ body, p, h1, h2, h3, h4, h5, h6 {
   line-height: 1.3; }
 
 header {
-  text-align: center; }
+  text-align: center;
+  margin: 1em auto 2em; }
   @media screen and (min-width: 40em) {
     header {
-      width: 80%;
-      margin: 0 auto; } }
+      width: 80%; } }
   header img {
     max-width: 100%;
     height: 4em; }
@@ -34,5 +34,8 @@ button, .btn {
     background: #2ea046; }
   button:focus, .btn:focus {
     outline: 5px auto #3ac054; }
+
+section {
+  margin: 1em 0; }
 
 /*# sourceMappingURL=getaggie.css.map */
