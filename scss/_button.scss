@@ -1,0 +1,15 @@
+button, .btn {
+  background: $green;
+  color: $white;
+  border-radius: 0;
+  padding: .5em 2em;
+
+  &:hover, &:focus, &:active {
+    color: $white;
+    background: $hover;
+  }
+
+  &:focus {
+    outline: 5px auto $focus;
+  }
+}
