@@ -1,3 +1,9 @@
+nav {
+  text-align: right; }
+  nav li {
+    display: inline-block;
+    margin: 0 1em; }
+
 html {
   background: #c6c6c6; }
 
@@ -29,7 +35,7 @@ button, .btn {
   color: white;
   border-radius: 0;
   padding: .5em 2em; }
-  button:hover, button:focus, .btn:hover, .btn:focus {
+  button:hover, button:focus, button:active, .btn:hover, .btn:focus, .btn:active {
     color: white;
     background: #2ea046; }
   button:focus, .btn:focus {
@@ -37,5 +43,12 @@ button, .btn {
 
 section {
   margin: 1em 0; }
+
+a {
+  color: #25933c;
+  text-decoration: none; }
+  a:hover {
+    color: #3ac054;
+    text-decoration: underline; }
 
 /*# sourceMappingURL=getaggie.css.map */
