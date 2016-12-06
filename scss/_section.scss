@@ -3,15 +3,22 @@ section {
 
   h1 {
     color: $gray2;
+    font-size: 1.1em;
+    text-transform: uppercase;
   }
 
   h2 {
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    text-transform: capitalize;
   }
 }
 
 .color-block {
   background: $yellow;
-  padding: 1em;
+  padding: 1em 2em;
+
+  h1 {
+    margin: .5em 0;
+  }
 }

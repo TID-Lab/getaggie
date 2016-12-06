@@ -6,10 +6,18 @@ body {
   min-height: 100vh;
   max-width: 65em;
   margin: 0 auto;
-  padding: 2em 4em;
+  padding: 1em 2em;
   color: $gray;
+
+  @media screen and (min-width: 40em) {
+    padding: 2em 4em;
+  }
 }
 
 body, p, h1, h2, h3, h4, h5, h6 {
   line-height: 1.3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1em 0;
 }
