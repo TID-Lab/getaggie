@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   max-width: 65em;
   margin: 0 auto;
   padding: 2em 4em;
@@ -64,4 +64,9 @@ a {
     color: $focus;
     text-decoration: underline;
   }
+}
+
+.color-block {
+  background: $yellow;
+  padding: 1em;
 }
