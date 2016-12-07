@@ -39,7 +39,8 @@ nav {
   text-align: right; }
   nav li {
     display: inline-block;
-    margin: 0 1em; }
+    margin: 0 .25em;
+    color: #25933c; }
 
 header {
   text-align: center;
