@@ -79,6 +79,9 @@ section {
   .color-block h1 {
     margin: .5em 0; }
 
+.media img {
+  width: 100%; }
+
 .design-principles div {
   margin: .5em 0;
   padding: 0; }
