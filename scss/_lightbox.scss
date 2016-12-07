@@ -1,0 +1,13 @@
+.ekko-lightbox.modal {
+  .modal-dialog {
+    @media screen and (min-width: 48em) {
+      width: 80%;
+    }
+  }
+
+  .ekko-lightbox-container {
+    img {
+      margin: 0 auto;
+    }
+  }
+}

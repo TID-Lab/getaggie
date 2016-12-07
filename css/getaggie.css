@@ -82,6 +82,12 @@ section {
 .media img {
   width: 100%; }
 
+@media screen and (min-width: 48em) {
+  .ekko-lightbox.modal .modal-dialog {
+    width: 80%; } }
+.ekko-lightbox.modal .ekko-lightbox-container img {
+  margin: 0 auto; }
+
 .design-principles div {
   margin: .5em 0;
   padding: 0; }

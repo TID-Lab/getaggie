@@ -11,10 +11,6 @@
   <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap-theme.min.css" />
   <link rel="stylesheet" href="vendor/lightbox-4.0.2/ekko-lightbox.min.css" />
   <link rel="stylesheet" href="css/getaggie.css" />
-
-  <script src="vendor/jquery-3.1.1.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-  <script src="vendor/lightbox-4.0.2/ekko-lightbox.min.js"></script>
 </head>
 
 <body>
@@ -38,7 +34,24 @@
     <h1 class="sr-only sr-only-focusable">Features</h1>
     <div class="media row">
       <div class="col-xs-12 col-sm-3">
-        <a href="#">
+        <a href="img/features/full/reports.gif" data-toggle="lightbox"
+          data-title="Reports" data-footer="More information about reports">
+          <img class="media-object" src="img/features/thumbnails/trends.png" alt="">
+        </a>
+      </div>
+      <div class="col-xs-12 col-sm-9">
+        <h2 class="media-heading">Test Feature with GIF</h4>
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+          laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+          architecto beatae vitae dicta sunt explicabo.
+        </p>
+      </div>
+    </div>
+
+    <div class="media row">
+      <div class="col-xs-12 col-sm-3">
+        <a href="img/features/thumbnails/sources.png" data-toggle="lightbox">
           <img class="media-object" src="img/features/thumbnails/sources.png" alt="">
         </a>
       </div>
@@ -54,7 +67,7 @@
 
     <div class="media row">
       <div class="col-xs-12 col-sm-3">
-        <a href="#">
+        <a href="img/features/thumbnails/trends.png" data-toggle="lightbox">
           <img class="media-object" src="img/features/thumbnails/trends.png" alt="">
         </a>
       </div>
@@ -70,7 +83,7 @@
 
     <div class="media row">
       <div class="col-xs-12 col-sm-3">
-        <a href="#">
+        <a href="img/features/thumbnails/incident-map.png" data-toggle="lightbox">
           <img class="media-object" src="img/features/thumbnails/incident-map.png" alt="">
         </a>
       </div>
@@ -206,5 +219,10 @@
       <img src="img/logo.png" alt="Aggie Logo" />
     </div>
   </footer>
+
+  <script src="vendor/jquery-3.1.1.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="vendor/lightbox-4.0.2/ekko-lightbox.min.js"></script>
+  <script src="js/getaggie.js"></script>
 </body>
 </html>
