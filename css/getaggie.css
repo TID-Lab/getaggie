@@ -79,8 +79,14 @@ section {
   .color-block h1 {
     margin: .5em 0; }
 
-.media img {
-  width: 100%; }
+.media {
+  margin: 1em 0 1.5em; }
+  .media img {
+    width: 100%;
+    margin-bottom: 1em; }
+    @media screen and (min-width: 48em) {
+      .media img {
+        margin: 0; } }
 
 @media screen and (min-width: 48em) {
   .ekko-lightbox.modal .modal-dialog {
