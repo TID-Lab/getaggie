@@ -1,0 +1,61 @@
+h1 {
+  color: $gray2;
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.1em;
+  margin: 1em auto;
+  font-style: italic;
+  max-width: 500px;
+}
+
+section {
+  margin: 1em 0;
+
+  &.color-block {
+    background: $yellow;
+    margin: 0 -15px 0 -15px;
+    padding: 15px 15px 5px 15px;
+
+    h1 {
+      margin: .5em 0;
+    }
+  }
+
+  &.design-principles {
+    .principle {
+      margin-bottom: 1em;
+    }
+  }
+
+  h3 {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 1em;
+    color: $gray3;
+  }
+
+  h4 {
+    font-size: 1em;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 0.5em;
+  }
+
+  .item {
+    margin-bottom: 2em;
+
+    img {
+      width: 100%;
+      margin-bottom: 1em;
+      border: 1px solid $gray2;
+
+      @media screen and (min-width: 768px) {
+        margin: 0;
+      }
+    }
+  }
+}

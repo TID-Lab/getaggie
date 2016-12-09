@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap-theme.min.css" />
   <link rel="stylesheet" href="vendor/lightbox-4.0.2/ekko-lightbox.min.css" />
   <link rel="stylesheet" href="css/getaggie.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
     <ul>
       <li><a href="https://github.com/TID-Lab/aggie">Github</a></li>
       <li>&bull;</li>
-      <li><a href="https://github.com/TID-Lab/aggie">Documentation</a></li>
+      <li><a href="http://aggie.readthedocs.io/">Documentation</a></li>
     </ul>
   </nav>
   <header>
@@ -28,203 +29,219 @@
       Aggie is an open-source social and online media aggregation tool
       designed specifically for monitoring events in real time.
     </h2>
-    <button class="btn">Request a demo</button>
+    <a class="btn" href="mailto:aggie-dev@sassafras.coop?subject=Aggie+Demo+Request">Request a Demo</a>
   </header>
 
   <section>
-    <h1 class="sr-only sr-only-focusable">Features</h1>
-    <div class="media row">
-      <div class="col-xs-12 col-sm-3">
+    <h3 class="sr-only sr-only-focusable">Features</h3>
+    <div class="item row">
+      <div class="col-sm-4">
         <a href="img/features/full/reports.gif" data-toggle="lightbox"
-          data-title="Reports" data-footer="More information about reports">
-          <img class="media-object" src="img/features/thumbnails/trends.png" alt="">
+          data-title="Efficient Data Exploration">
+          <img src="img/features/thumbnails/reports.gif" alt="">
         </a>
       </div>
-      <div class="col-xs-12 col-sm-9">
-        <h2 class="media-heading">Reports: Test feature with GIF</h4>
+      <div class="col-sm-8">
+        <h4>Efficient Data Exploration</h4>
         <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-          laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
+          Aggie is designed to help you sift through mountains of incoming data to find interesting information. Use full-text search or filter by tag, author, source, status, or date/time. Flag reports for later, and add them to incidents. All with a lightning fast, streaming interface.
         </p>
       </div>
     </div>
 
-    <div class="media row">
-      <div class="col-xs-12 col-sm-3">
+    <div class="item row">
+      <div class="col-sm-4">
+        <a href="img/features/full/incidents.gif" data-toggle="lightbox"
+          data-title="Incident Tracking">
+          <img src="img/features/thumbnails/incidents.gif">
+        </a>
+      </div>
+      <div class="col-sm-8">
+        <h4>Incident Tracking</h4>
+        <p>
+          Reports of interest can be grouped into incidents. Location, veracity status, tags, notes, and other metadata can be added to each incident. Incidents are also fully searchable and filterable. Assign incidents to different team members to divide up the work of tracking.
+        </p>
+      </div>
+    </div>
+
+    <div class="item row">
+      <div class="col-sm-4">
+        <a href="img/features/full/grab-batch.gif" data-toggle="lightbox"
+          data-title="Team Coordination">
+          <img src="img/features/thumbnails/grab-batch.gif" alt="">
+        </a>
+      </div>
+      <div class="col-sm-8">
+        <h4>Team Coordination</h4>
+        <p>
+          “Grab a Batch” to check out a small set of reports to quickly review and flag or add to incident. Multiple team members can scan batches simultaneously and are assured to see different reports.
+        </p>
+      </div>
+    </div>
+
+    <div class="item row">
+      <div class="col-sm-4">
         <a href="img/features/full/sources.png" data-toggle="lightbox"
-          data-title="Sources">
-          <img class="media-object" src="img/features/thumbnails/sources-zoom.png">
+          data-title="Twitter, Facebook, SMS, RSS, and More">
+          <img src="img/features/thumbnails/sources.png" alt="">
         </a>
       </div>
-      <div class="col-xs-12 col-sm-9">
-        <h2 class="media-heading">Sources</h4>
+      <div class="col-sm-8">
+        <h4>Twitter, Facebook, SMS, RSS, and More</h4>
         <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-          laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
+          Pull reports from Twitter, Facebook Pages & Groups, RSS feeds, ELMO Responses, and SMS shortcodes. Aggie supports up to 1,000 incoming reports per second. Toggle and adjust various sources seamlessly to shape the data you are collecting.
         </p>
       </div>
     </div>
 
-    <div class="media row">
-      <div class="col-xs-12 col-sm-3">
-        <a href="img/features/full/trends.png" data-toggle="lightbox" data-title="Trends">
-          <img class="media-object" src="img/features/thumbnails/trends.png" alt="">
+    <div class="item row">
+      <div class="col-sm-4">
+        <a href="img/features/full/trends.png" data-toggle="lightbox"
+          data-title="Trend Monitoring">
+          <img src="img/features/thumbnails/trends.png" alt="">
         </a>
       </div>
-      <div class="col-xs-12 col-sm-9">
-        <h2 class="media-heading">Trends</h4>
+      <div class="col-sm-8">
+        <h4>Trend Monitoring</h4>
         <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-          laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
+          Automated and manual analysis come together in Aggie with trend visualizations. Define trends using keywords, sources, and other metadata. Watch trend lines change over time and drill down by clicking anywhere on the chart to see matching reports.
         </p>
       </div>
     </div>
 
-    <div class="media row">
-      <div class="col-xs-12 col-sm-3">
+    <div class="item row">
+      <div class="col-sm-4">
         <a href="img/features/full/incident-map.png" data-toggle="lightbox"
-          data-title="Incident Map">
-          <img class="media-object" src="img/features/thumbnails/incident-map.png" alt="">
+          data-title="Mapping">
+          <img src="img/features/thumbnails/incident-map.png" alt="">
         </a>
       </div>
-      <div class="col-xs-12 col-sm-9">
-        <h2 class="media-heading">Incident Map</h4>
+      <div class="col-sm-8">
+        <h4>Mapping</h4>
         <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-          laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
+          View incidents on a map. Drill down by clicking incident markers.
         </p>
       </div>
     </div>
   </section>
 
   <section class="design-principles color-block">
-    <h1>Design principles</h1>
+    <div class="row">
+      <div class="col-sm-12">
+        <h3>Design Principles</h3>
+      </div>
+    </div>
 
     <div class="row">
-      <div class="col-xs-12 col-sm-6">
-        <h2>Technological Neutrality</h2>
+      <div class="col-sm-6 principle">
+        <h4>Technological Neutrality</h4>
         <span>Supporting content from popular social media platforms along with media originating from pur- pose-built systems.</span>
       </div>
 
-      <div class="col-xs-12 col-sm-6">
-        <h2>Computer-enabled Expert Analysis</h2>
+      <div class="col-sm-6 principle">
+        <h4>Computer-enabled Expert Analysis</h4>
         <span>Automated computer analysis augmenting and enhancing expert human real-time reasoning and decision making.</span>
       </div>
 
-      <div class="col-xs-12 col-sm-6">
-        <h2>Real-time Response</h2>
+      <div class="col-sm-6 principle">
+        <h4>Real-time Response</h4>
         <span>Moving from online report aggregation to analysis, escalation and response within one hour.</span>
       </div>
 
-      <div class="col-xs-12 col-sm-6">
-        <h2>Big Data</h2>
+      <div class="col-sm-6 principle">
+        <h4>Big Data</h4>
         <span>Supporting up to 1,000 incoming reports per second.</span>
       </div>
 
-      <div class="col-xs-12 col-sm-6">
-        <h2>Open Source</h2>
+      <div class="col-sm-6 principle">
+        <h4>Open Source</h4>
         <span>Aggie is fully open source and welcomes contri- butions.</span>
       </div>
     </div>
   </section>
 
   <section>
-    <h1>Featured Deployment</h1>
-
-    <div class="media row">
-      <div class="col-xs-offset-2 col-sm-offset-0 col-xs-8 col-sm-3">
-        <a href="img/deployments/full/hate-speech.png" data-toggle="lightbox"
-          data-title="Deployment: Hate Speech">
-          <img class="media-object" src="img/deployments/thumbnails/hate-speech.png"
-            alt="Screenshot of table with short description of harassment incidents and locations">
-        </a>
-      </div>
-      <div class="col-xs-12 col-sm-9">
-        <h2 class="media-heading">Hate Speech</h4>
-        <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-          laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-        </p>
+    <div class="row">
+      <div class="col-sm-12">
+        <h3>Featured Deployments</h3>
       </div>
     </div>
-
-    <div class="media row">
-      <div class="col-xs-offset-2 col-sm-offset-0 col-xs-8 col-sm-3">
-        <a href="img/deployments/full/argentina-2015.png" data-toggle="lightbox"
-          data-title="Deployment: Argentina 2015">
-          <img class="media-object" src="img/deployments/thumbnails/argentina-2015.png"
-            alt="Group of people around a table looking at different computer monitors">
-        </a>
-      </div>
-      <div class="col-xs-12 col-sm-9">
-        <h2 class="media-heading">Argentina 2015</h4>
-        <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-          laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-        </p>
-      </div>
-    </div>
-
-    <div class="media row">
-      <div class="col-xs-offset-2 col-sm-offset-0 col-xs-8 col-sm-3">
-        <a href="img/deployments/full/ghana-2012.png" data-toggle="lightbox"
-          data-title="Deployment: Ghana 2012">
-          <img class="media-object" src="img/deployments/thumbnails/ghana-2012.png"
-            alt='Banner on blue building reads "Ghana Election 2012, Social Media Tracking Centre"'>
-        </a>
-      </div>
-      <div class="col-xs-12 col-sm-9">
-        <h2 class="media-heading">Ghana 2012</h4>
-        <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-          laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-        </p>
-      </div>
-    </div>
-
-    <div class="media row">
-      <div class="col-xs-offset-2 col-sm-offset-0 col-xs-8 col-sm-3">
+    <div class="item row">
+      <div class="col-sm-4">
         <a href="img/deployments/full/nigeria-2011.png" data-toggle="lightbox"
           data-title="Deployment: Nigeria 2011">
-          <img class="media-object" src="img/deployments/thumbnails/nigeria-2011.png"
+          <img src="img/deployments/thumbnails/nigeria-2011.png"
             alt="Two brown women point at computer screen showing red graphs">
         </a>
       </div>
-      <div class="col-xs-12 col-sm-9">
-        <h2 class="media-heading">Nigeria 2011</h4>
+      <div class="col-sm-8">
+        <h4>Nigeria 2011</h4>
         <p>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-          laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
+          Aggie was first developed to support grassroots, youth-led monitoring of the 2011 Nigerian general elections. Aggie's trend visualization and search features helped uncover unfolding events more quickly than the traditional media and authorities.
+        </p>
+      </div>
+    </div>
+
+    <div class="item row">
+      <div class="col-sm-4">
+        <a href="img/deployments/full/ghana-2012.png" data-toggle="lightbox"
+          data-title="Deployment: Ghana 2012">
+          <img src="img/deployments/thumbnails/ghana-2012.png"
+            alt='Banner on blue building reads "Ghana Election 2012, Social Media Tracking Centre"'>
+        </a>
+      </div>
+      <div class="col-sm-8">
+        <h4>Ghana 2012</h4>
+        <p>
+          The 2012 Ghana elections also featured an Aggie-centered “Social Media Tracking Center” (SMTC). SMTC volunteers were divided into three teams: Relevance (who scan for pertinent reports), Veracity (who verify incidents) and Escalation (who pass information to appropriate bodies).
+        </p>
+      </div>
+    </div>
+
+    <div class="item row">
+      <div class="col-sm-4">
+        <a href="img/deployments/full/argentina-2015.png" data-toggle="lightbox"
+          data-title="Deployment: Argentina 2015">
+          <img src="img/deployments/thumbnails/argentina-2015.png"
+            alt="Group of people around a table looking at different computer monitors">
+        </a>
+      </div>
+      <div class="col-sm-8">
+        <h4>Argentina 2015</h4>
+        <p>
+          Argentina’s 2015 election was the first Aggie deployment to integrate reports from a crowdsourced election monitoring application, called <em>Ojo con el Voto</em>. Aggie’s reports page and trend analysis were publicized to a broad audience through a popular online newspaper.
         </p>
       </div>
     </div>
   </section>
 
-  <section class="design-principles color-block">
-    <h1>About Contact</h1>
+  <section class="about color-block">
+    <div class="row">
+      <div class="col-sm-12">
+        <h3>About/Contact</h3>
+      </div>
+    </div>
 
-    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    <div class="row">
+      <div class="col-sm-6">
+        <p>Aggie was first developed to support grassroots, youth-led monitoring of the 2011 Nigerian general elections. The tool has been used widely since then, mostly in social election monitoring efforts.</p>
 
-    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        <p>Recently, interest has grown into other domains such as hate speech monitoring and disaster response. Read more in <a href="papers/ictd2016.pdf">this paper</a>.</p>
+      </div>
+      <div class="col-sm-6">
+        <p>Aggie is a collaboration between <a href="http://gatech.edu">Georgia Tech</a> (where the project began), <a href="http://sassafras.coop">Sassafras Tech Collective</a> (founded by one of Aggie's creators), and <a href="http://cs.unu.edu">United Nations University - Computing and Society</a> (founded by another of Aggie's creators).</p>
 
-    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        <p>Those interested in research collaboration in the area of social media monitoring or related areas should contact <a href="mailto:mikeb@unu.edu">Dr. Michael Best</a> or <a href="mailto:ewz@cc.gatech.edu">Dr. Ellen Zegura</a>.</p>
+      </div>
   </section>
 
   <footer>
-    <button class="btn">Request a demo</button>
+    <a class="btn" href="mailto:aggie-dev@sassafras.coop?subject=Aggie+Demo+Request">Request a Demo</a>
 
-    <div class="logos">
-      <img src="img/logo.png" alt="Aggie Logo" />
-      <img src="img/logo.png" alt="Aggie Logo" />
-      <img src="img/logo.png" alt="Aggie Logo" />
+    <div class="partners">
+      <a href="http://sassafras.coop"><img src="img/partners/sassafras.png" alt="Sassafras Tech Collective Logo" /></a>
+      <a href="http://cs.unu.edu/"><img src="img/partners/unucs.png" alt="UNU-CS Logo" /></a>
+      <a href="http://gatech.edu"><img src="img/partners/gatech.png" alt="Georgia Tech Logo" /></a>
     </div>
   </footer>
 
